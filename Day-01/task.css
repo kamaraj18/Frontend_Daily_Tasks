@@ -1,0 +1,180 @@
+ *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    .page{
+      height: 100vh;
+      width: 100%;
+      background-color: white;
+      position: relative;
+    }
+    .section-1{
+      height: 100%;
+      width: 35%;
+      background:
+        linear-gradient(
+            135deg,
+            #2d0739 0%,
+            #411a3d 35%,
+            #21082e 70%,
+            #1b0629 100%
+        );
+    }
+    .card{
+      height: 220px;
+      width: 430px;
+      border-radius: 10px;
+    }
+    .card-front{
+    background:
+        radial-gradient(
+            circle at 75% 85%,
+            rgba(65, 150, 255, 0.95),
+            transparent 40%
+        ),
+        radial-gradient(
+            circle at 90% 15%,
+            rgba(255, 105, 90, 0.95),
+            transparent 38%
+        ),
+        radial-gradient(
+            circle at 55% 45%,
+            rgba(180, 45, 230, 0.9),
+            transparent 50%
+        ),
+        linear-gradient(
+            120deg,
+            #5835e8,
+            #7414b5 65%,
+            #6200a0
+        );
+      position: absolute;
+      top: 150px;
+      left: 180px;
+    }
+    .card-back{
+      background-color: #d4d5da;
+      position: absolute;
+      top: 430px;
+      left: 280px;
+    }
+    form{
+      background-color: transparent;
+      height: 450px;
+      width: 430px;
+      position: absolute;
+      top: 200px;
+      right: 200px;
+    }
+    form > section > label{
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    #cardholder-name, #card-number{
+      width: 300px;
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #dedede;
+    }
+    #cvc-number{
+      width: 120px;
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #dedede;
+    }
+    #cardholder-name-section{
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+    #card-number-section{
+      position: absolute;
+      top: 100px;
+      left: 20px;
+    }
+    #exp-date-section{
+      position: absolute;
+      top: 180px;
+      left: 20px;
+    }
+    #exp-date-month, #exp-date-year{
+      width: 70px;
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #dedede;
+    }
+      #cvc-section{
+        position: absolute;
+        top: 180px;
+        left: 200px;
+      }
+    #confirm-button{
+      position: absolute;
+      top: 280px;
+      left: 20px;
+      width: 300px;
+      padding: 8px;
+      border-radius: 5px;
+      background-color: #220930;
+      color: white;
+    }
+    #circle-1{
+      height:50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+    #circle-2{
+      height:20px;
+      width: 20px;
+      border-radius: 50%;
+      border: 1px solid white;
+      position: absolute;
+      top: 35px;
+      left: 85px;
+    }
+    .card-number{
+      font-size: 25px;
+      color: white;
+      position: absolute;
+      top: 120px;
+      left: 50px;
+      letter-spacing: 3px;
+      word-spacing: 5px;
+    }
+    .cardholder-name{
+      color: white;
+      position: absolute;
+      top: 170px;
+      left: 50px;
+      text-transform: uppercase;
+    }
+    .cvc-number{
+      color: white;
+      position: absolute;
+      top: 170px;
+      right: 40px;
+    }
+    .stripe-1{
+      height: 40px;
+      width: 100%;
+      background-color: #2f2f2f;
+      position: absolute;
+      top: 20px;
+    }
+    .stripe-2{
+      height: 35px;
+      width: 70%;
+      background-color: #adb6bf;
+      position: absolute;
+      top: 80px;
+      left: 70px;
+      color: white;
+      text-align: right;
+      padding: 5px;
+    }

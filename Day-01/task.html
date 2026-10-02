@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Details</title>
+  <link rel="stylesheet" href="task.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <div class="section-1">
+    </div>
+    <div class="card card-front">
+      <div id="circle-1"></div>
+      <div id="circle-2"></div>
+      <div class="card-number">0000 0000 0000 0000</div>
+      <div class="cardholder-name">Jane Appleseed</div>
+      <div class="cvc-number">00/00</div>
+    </div>
+    <div class="card card-back">
+      <div class="stripe-1"></div>
+      <div class="stripe-2">000</div>
+    </div>
+    <form>
+      <section id="cardholder-name-section">
+        <label>
+          CardHolder Name
+        </label>
+        <input type="text" placeholder="e.g. Jane Appleseed" id="cardholder-name">
+      </section>
+      
+      
+      <section id="card-number-section">
+        <label>
+          Card Number
+        </label> <br>
+        <input type="text" placeholder="e.g. 1234 5678 9123 0000" id="card-number">
+      </section>
+      
+      <div class="form-row">
+        <section id="exp-date-section">
+          <label>
+            Exp. Date (MM/YY)
+          </label> <br>
+          <input type="text" placeholder="MM" id="exp-date-month">
+          <input type="text" placeholder="YY" id="exp-date-year">
+        </section>
+        
+        <section id="cvc-section">
+          <label>
+              Cvc
+          </label><br>
+          <input type="text" placeholder="e.g. 123" id="cvc-number">
+        </section>
+      </div>
+      <button id="confirm-button" type="submit">Confirm</button>
+    </form>
+    
+  </div>
+</body>
+</html>
